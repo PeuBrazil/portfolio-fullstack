@@ -1,24 +1,13 @@
-import { useState } from 'react';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { About } from './components/About';
 import { ProjectCard } from './components/ProjectCard';
 import { Contact } from './components/Contact';
 
-export default function App() {
-  const [projects] = useState([
-    {
-      title: "Em Breve: API de Microserviços Laravel",
-      description: "Arquitetura de back-end robusta focada na otimização de fluxos de dados, integridade de base de dados e relacionamentos complexos usando migrations, factories e seeders.",
-      techs: ["PHP", "Laravel", "Docker", "PostgreSQL"],
-    },
-    {
-      title: "Em Breve: Calculadora de Estruturas Web",
-      description: "Aplicação Full Stack para planejamento de recursos, convertendo inputs brutos em cálculos precisos de materiais, lotes e desgaste lógico de equipamentos.",
-      techs: ["React", "TypeScript", "Tailwind"],
-    }
-  ]);
+import projectsData from './data/projects.json';
 
+export default function App() {
+  
   return (
     <div className="min-h-screen bg-zinc-950 text-zinc-50 font-sans selection:bg-purple-500/30">
       <Navbar />
@@ -27,14 +16,15 @@ export default function App() {
         <Hero />
         <About />
 
-        {/* SEÇÃO PROJETOS */}
         <section id="projects" className="border-t border-zinc-800 pt-16 space-y-12">
           <div className="flex items-center gap-4">
             <h3 className="text-lg font-semibold font-mono tracking-tight text-purple-400">02. Projetos em Destaque</h3>
+            <div className="h-px bg-zinc-800 flex-1"></div>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {projects.map((project, index) => (
+            {/* 3. Lemos a variável projectsData que veio do import */}
+            {projectsData.map((project, index) => (
               <ProjectCard 
                 key={index}
                 index={index}

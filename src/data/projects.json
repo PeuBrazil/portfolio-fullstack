@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "title": "Em Breve: API de Microserviços Laravel",
+    "description": "Arquitetura de back-end robusta focada na otimização de fluxos de dados, integridade de base de dados e relacionamentos complexos usando migrations, factories e seeders.",
+    "techs": ["PHP", "Laravel", "Docker", "PostgreSQL"]
+  },
+  {
+    "title": "Em Breve: Calculadora de Estruturas Web",
+    "description": "Aplicação Full Stack para planejamento de recursos, convertendo inputs brutos em cálculos precisos de materiais, lotes e desgaste lógico de equipamentos.",
+    "techs": ["React", "TypeScript", "Tailwind"]
+  }
+]
