@@ -4,7 +4,7 @@ export function Contact() {
   return (
     <section id="contact" className="border-t border-zinc-800 pt-16 text-center max-w-xl mx-auto space-y-6">
       <p className="font-mono text-xs font-semibold tracking-widest text-green-500 uppercase">03. O que se segue?</p>
-      <h3 className="text-3xl font-bold tracking-tight">Entrar em Contacto</h3>
+      <h3 className="text-3xl font-bold tracking-tight">Entrar em Contato</h3>
       <p className="text-zinc-400 leading-relaxed">
         Estou sempre aberto a novas oportunidades e desafios técnicos em desenvolvimento web. Seja para discutir processos seletivos, arquitetura de sistemas, ou apenas bater um papo sobre tecnologia, a minha caixa de entrada está à disposição.
       </p>
@@ -12,7 +12,7 @@ export function Contact() {
       <div className="pt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
         <a 
           href="mailto:joaopedrombrazil@gmail.com" 
-          className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 h-12 text-sm font-semibold text-zinc-950 bg-green-400 rounded-lg hover:bg-green-600 transition-colors"
+          className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 h-12 text-sm font-semibold text-zinc-950 bg-green-500 rounded-lg hover:bg-green-600 transition-colors"
         >
           <Mail size={18} />
           Diga Olá
