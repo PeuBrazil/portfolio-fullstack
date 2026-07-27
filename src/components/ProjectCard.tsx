@@ -12,7 +12,7 @@ export function ProjectCard({ title, description, techs, index }: ProjectCardPro
         <div className="flex items-center justify-between text-zinc-500">
           <span className="font-mono text-xs">Projeto #{index + 1}</span>
         </div>
-        <h4 className="text-xl font-bold text-zinc-100 group-hover:text-purple-400 transition-colors">
+        <h4 className="text-xl font-bold text-zinc-100 group-hover:text-green-500 transition-colors">
           {title}
         </h4>
         <p className="text-sm text-zinc-400 leading-relaxed">

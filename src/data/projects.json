@@ -1,12 +1,12 @@
 [
   {
-    "title": "Em Breve: API de Microserviços Laravel",
-    "description": "Arquitetura de back-end robusta focada na otimização de fluxos de dados, integridade de base de dados e relacionamentos complexos usando migrations, factories e seeders.",
-    "techs": ["PHP", "Laravel", "Docker", "PostgreSQL"]
+    "title": "Refatoração de Sistema de Gestão Interna",
+    "description": "Atuação na modernização de um sistema governamental legado. O projeto envolveu a reestruturação de relacionamentos no banco de dados para suportar novos requisitos do negócio e a correção do motor de exportação de relatórios complexos em PDF. Na camada de interface, implementei lógicas de sanitização e tratamento de Edge Cases, garantindo que dados inconsistentes relacionados a datas e horas fossem exibidos de forma clara e funcional para o usuário final. Toda a reestruturação foi apoiada por boas práticas de arquitetura, garantindo a integridade e escalabilidade do banco de dados através da implementação de factories, seeders, observers e jobs para processamento assíncrono.",
+    "techs": ["PHP", "Laravel", "SQL", "JavaScript"]
   },
   {
-    "title": "Em Breve: Calculadora de Estruturas Web",
-    "description": "Aplicação Full Stack para planejamento de recursos, convertendo inputs brutos em cálculos precisos de materiais, lotes e desgaste lógico de equipamentos.",
-    "techs": ["React", "TypeScript", "Tailwind"]
+    "title": "Em Breve: Calculadora de Estruturas e Recursos",
+    "description": "Aplicação de planeamento lógico focada em processamento matemático. O sistema converte parâmetros brutos de dimensões em cálculos precisos de materiais necessários, planeamento de lotes de armazenamento e estimativa de desgaste lógico de ferramentas.",
+    "techs": ["React", "TypeScript", "Tailwind CSS"]
   }
 ]

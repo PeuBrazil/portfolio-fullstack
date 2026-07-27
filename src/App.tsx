@@ -9,7 +9,7 @@ import projectsData from './data/projects.json';
 export default function App() {
   
   return (
-    <div className="min-h-screen bg-zinc-950 text-zinc-50 font-sans selection:bg-purple-500/30">
+    <div className="min-h-screen bg-zinc-950 text-zinc-50 font-sans selection:bg-green-500/30">
       <Navbar />
 
       <main className="max-w-5xl mx-auto px-6 pt-16 pb-24 space-y-32">
@@ -18,12 +18,11 @@ export default function App() {
 
         <section id="projects" className="border-t border-zinc-800 pt-16 space-y-12">
           <div className="flex items-center gap-4">
-            <h3 className="text-lg font-semibold font-mono tracking-tight text-purple-400">02. Projetos em Destaque</h3>
+            <h3 className="text-lg font-semibold font-mono tracking-tight text-green-500">02. Projetos em Destaque</h3>
             <div className="h-px bg-zinc-800 flex-1"></div>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {/* 3. Lemos a variável projectsData que veio do import */}
             {projectsData.map((project, index) => (
               <ProjectCard 
                 key={index}
