@@ -30,6 +30,7 @@ export default function App() {
                 title={project.title}
                 description={project.description}
                 techs={project.techs}
+                link={project.link}
               />
             ))}
           </div>

@@ -1,12 +1,18 @@
 [
+ {
+  "title": "SICOC — Sistema de Consultas e Organização",
+  "description": "Sistema web projetado para unificar a gestão de contatos e eventos de diferentes áreas organizacionais. A aplicação oferece uma navegação fluida, sistema de calendário integrado e suporte a notificações push. Construído sobre o ecossistema Laravel, o projeto equilibra um back-end altamente seguro, com gestão de roles dinâmicas, e uma interface moderna projetada para alta usabilidade.",
+  "techs": ["PHP 8.3", "Laravel 13", "Tailwind CSS", "MySQL 8", "Livewire", "Alpine.js", "Pest 4"],
+    "link": "https://github.com/PeuBrazil/Sicoc"
+},
   {
     "title": "Refatoração de Sistema de Gestão Interna",
     "description": "Atuação na modernização de um sistema governamental legado. O projeto envolveu a reestruturação de relacionamentos no banco de dados para suportar novos requisitos do negócio e a correção do motor de exportação de relatórios complexos em PDF. Na camada de interface, implementei lógicas de sanitização e tratamento de Edge Cases, garantindo que dados inconsistentes relacionados a datas e horas fossem exibidos de forma clara e funcional para o usuário final. Toda a reestruturação foi apoiada por boas práticas de arquitetura, garantindo a integridade e escalabilidade do banco de dados através da implementação de factories, seeders, observers e jobs para processamento assíncrono.",
     "techs": ["PHP", "Laravel", "SQL", "JavaScript"]
   },
   {
-    "title": "Em Breve: Calculadora de Estruturas e Recursos",
-    "description": "Aplicação de planeamento lógico focada em processamento matemático. O sistema converte parâmetros brutos de dimensões em cálculos precisos de materiais necessários, planeamento de lotes de armazenamento e estimativa de desgaste lógico de ferramentas.",
-    "techs": ["React", "TypeScript", "Tailwind CSS"]
+    "title": "Em Breve: Portfolio Interativo",
+    "description": "Portfolio Interativo em formato de jogo 2D desenvolvido em Typescript, permitindo o usuário passear pelo mapa, interação com NPCs e entrar em contato com o Desenvolvedor através do próprio jogo",
+    "techs": ["TypeScript"]
   }
 ]
